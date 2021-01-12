@@ -69,7 +69,7 @@ body{
     border-bottom-left-radius: 75px;
     border-bottom-right-radius: 75px;
     margin: 0px auto;
-    box-shadow: inset 0px 0px 50px currentColor, 0px 14px 8px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 50px currentColor, 0px 13px 6px 7px rgba(0, 0, 0, 0.2);
     animation-name: size;                  /*위에서 만든 에니메이션*/
     animation-duration: 1s;                /*지속시간*/
     animation-iteration-count: infinite;   /*반복*/
@@ -85,14 +85,14 @@ body{
 }
 .Cow::before{
     float: left;
-    margin: 54px -20px 0px;
+    margin: 53px -20px 0px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 5px;
     box-shadow: inset 10px 0px 18px currentColor, -4px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
 .Cow::after{
     float: right;
-    margin: -142px -20px 0px;
+    margin: -140px -20px 0px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 20px;
     box-shadow: inset -10px 0px 18px currentColor, 4px 1px 1px 1px rgba(0, 0, 0, 0.2);
