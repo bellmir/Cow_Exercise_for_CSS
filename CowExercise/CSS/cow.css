@@ -41,6 +41,7 @@ h1{
     }
 }
 
+
 /*Design*/
 body{
     background-color: var(--PrimaryColor);
@@ -52,7 +53,11 @@ body{
     padding-top: 40px;
     font-size: 80px;
     line-height: 1;
-    
+}
+@media screen and (max-width:515px) {
+    .title{
+        font-size: 50px;
+    }
 }
 .Cow{
     background-color: var(--SecondaryColor);
