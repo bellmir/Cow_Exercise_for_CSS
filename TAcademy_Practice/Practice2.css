@@ -1,0 +1,180 @@
+/*-----초기화-----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+ul, li{
+    list-style: none;
+    font-weight: none;
+}
+
+/*-----Design-----*/
+:root{
+    --border_color: #cccccc;
+}
+
+
+/*header*/
+#header_gnb{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+#header_gnb ul{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    width: 90%;
+    margin: 0px auto;
+}
+@media screen and (min-width:1000px){
+    #header_gnb ul{
+        width: 1000px;
+    }
+}
+#header_gnb ul li{
+    width: 10%;
+    height: 30px;
+    line-height: 30px;
+}
+#header_logo{
+    margin: 70px auto;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    border: 1px solid var(--border_color);
+}
+#header_hit{
+    width: 1000px;
+    margin: 0 auto 2px;
+    overflow: hidden;
+}
+#header_hit::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#header_hit ul{
+    float: right;
+    width: 35%;
+    text-align: center;
+    border: 1px solid var(--border_color);
+    border-radius: 10px;
+    display: flex;
+}
+#header_hit ul li{ 
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+}
+#header_hit ul li:not(:nth-child(1)){
+    border-left: 1px solid var(--border_color);
+}
+#header_lnb{
+    width: 100%;
+    border-top: 1px dashed var(--border_color);
+    border-bottom: 1px dashed var(--border_color);
+}
+#header_lnb::after{
+    clear: both;
+}
+#header_lnb ul{
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+#header_lnb ul li{
+    width: 12.5%;
+    float: left;
+    margin: 0 auto;
+}
+
+/*section*/
+#section_wrap{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#section_banner{
+    display: flex;
+    border: 1px solid var(--border_color);
+}
+#section_banner .slide_banner{
+    width: 700px;
+    height: 400px;
+    border: 1px solid var(--border_color);
+}
+#section_banner .side_banner{
+    width: 300px;
+    height: 400px;
+    border: 1px solid var(--border_color);
+}
+#section_product{
+    
+}
+#section_product .hit_product,
+#section_product .md_product{
+    margin-top: 10px;
+    border: 1px solid var(--border_color);
+}
+#section_product .hit_product::after,
+#section_product .md_product::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#section_product .hit_product li,
+#section_product .md_product li{
+    border: 1px solid var(--border_color);
+    float: left;
+    width: 24%;
+    margin-left: 6px;
+    height: 400px;
+}
+
+
+/*footer*/
+footer{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#footer_info::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#footer_info .office_logo{
+    width: 200px;
+    height: 250px;
+    border: 1px solid var(--border_color);
+    float: left;
+}
+#footer_info .office_address{
+    width: 500px;
+    height: 250px;
+    border: 1px solid var(--border_color);
+    float: left;
+}
+#footer_info .shopping_info{
+    width: 300px;
+    height: 250px;
+    border: 1px solid var(--border_color);
+    float: left;
+}
+footer .copyright{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+}
