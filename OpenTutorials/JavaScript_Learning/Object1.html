@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="임종용">
+        <meta name="description" content="생활코딩 JavaScript 언어">
+        <title>JavaScript객체</title>
+
+        <style>
+            p{
+                font-weight: 600;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            //객체를 정의하는 여러 방법
+            var grade1 = {'egoing':10, 'k8805':6, 'sorialgi':80};       //첫번쩨
+            var grade2 = {};            //두번째
+            grade2['egoing'] = 10;
+            grade2['k8805'] = 8;
+            grade2['sorialgi'] = 80;
+            var grade3 = new Object();      //세번째
+            grade3['egoing'] = 10;
+            grade3['k8805'] = 8;
+            grade3['sorialgi'] = 80;
+            //출력
+            document.write('<p>grade1.egoing: '+grade1.egoing+'</p>');
+            document.write('<p>grade2[\'k8805\']: '+grade2['k8805']+'</p>');
+            document.write('<p>grade3[\'sori\'+\'algi\']: '+grade3['sori'+'algi']+'</p>');
+            
+            //반복문 활용
+            for(var key in grade1){
+                document.write('<li>key: '+key+" / name: "+grade1[key]+"</li>");
+                console.log(key);
+            }
+            
+            //객체 안의 객체
+            var grade4 = {
+                'list' : {'egoing':10, 'k8805':8,'sorialgi':80},        //객체안의 객체
+                'show' : function(){        //객체 안의 함수
+                    document.write('<p>객체안의 함수</p>');
+                }
+            }
+            document.write('<p>grade4[\'list\'][\'egoing\']: '+grade4['list']['egoing']+'</p>');
+            grade4.show();
+
+            //this는 소속된 객체를 가리키는 키워드
+            var grade5 = {
+                'list' : {'egoing':10, 'k8805':8,'sorialgi':80},
+                'show' : function(){        //객체 안의 함수
+                    document.write(this);                  
+                }}
+
+            document.write("<p>grade5.show(): ");
+                for(name in this.list)
+                    document.write(name+' ');
+                document.write("</p>");
+            grade5.show();      //grade5['show']()와 같다.
+
+        </script>
+    </body>
+</html>

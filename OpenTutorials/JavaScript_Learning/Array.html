@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="임종용">
+        <meta name="description" content="생활코딩 JavaScript 언어">
+        <title>JavaScript, 배열에서의 함수들</title>
+    </head>
+    <body>
+        <script>
+            //기본적인 배열의 선언
+            var arr = ["John", "Tom"];
+            document.write('<p><b>원본: </b>'+arr+'</p>');
+
+
+            arr.push("Jessie");     //뒤에다 추가
+            document.write('<p><b>push: </b>'+arr+'</p>');
+
+            arr.unshift('Ana');     //앞에다 추가
+            document.write('<p><b>unshift: </b>'+arr+'</p>');
+
+            arr.shift();            //첫번째 원소를 제거하고 반환
+            document.write('<p><b>shift: </b>'+arr+'</p>');
+
+            arr.pop();              //마지막 원소를 제거하고 반환
+            document.write('<p><b>pop: </b>'+arr+'</p>');
+
+            arr=arr.concat(['Diago', 'Angellina']);     //배열에 배열을 더하여 반환
+            document.write('<p><b>concat: </b>'+arr+'</p>');
+
+            arr.sort();             //정렬
+            document.write('<p><b>sorted: </b>'+arr+'</p>');
+
+            arr.reverse();          //정렬
+            document.write('<p><b>reverse: </b>'+arr+'</p>');
+        </script>
+    </body>
+</html>
