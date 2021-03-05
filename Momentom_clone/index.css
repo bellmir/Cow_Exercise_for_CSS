@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/*initializing*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul, ol, li{
+    list-style: none;
+    font-weight: normal;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.js_clock{
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+    color: #34495e;
+    font-size: 1.5rem;
+}
+#gettingName{
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 1.2rem;
+}
+.formUserName,
+.greeting{
+    display: none;
+}
+.showing{
+    display: block;
+}
+
+#toDo{
+    margin:40px auto;
+    text-align: center;
+}
+
+/*백그라운드 설정*/
+.bgImage{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+
+.weather{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #34495e;
+}
