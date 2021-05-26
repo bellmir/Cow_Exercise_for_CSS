@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+   <main>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="./main.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta title="Naver Clone_Codding">
+      <meta name="author" content="Lim">
+      <meta name="keywords" content="clone codding">
+      <meta name="description" content="연습용 네이버 클론 코딩 페이지입니다.">
+   </main>
+   <body>
+      <!--    헤더     -->
+      <header>
+        <!--검색창-->
+         <div class="logo_area">
+             <a><img src="images/naver_logo.png" width="222" height="52" style="margin-bottom: 5px;"></a>
+             <div id="searching_tab">
+                 <form action="https://localhost/search.php#">
+                     <input class="search_box" type="text" name="search" placeholder="검색창" autofocus>
+                     <input type="submit" class="search_icon" name="search_submit" value="">
+                 </form>
+             </div>
+
+         <!--오른쪽 위, 시작페이지 설정-->
+             <ul class="set_start_page">
+                 <li><a href="#">네이버를 시작페이지로</a></li>
+                 <hr>
+                 <li><a href="#">쥬니버네이버</a></li>
+                 <li style="margin-left: 0;"><a href="#">해피빈</a></li>
+             </ul>
+         </div>
+      </header>
+
+
+
+    <!--     몸통      -->
+
+       <container class="menu_container">
+         <!--상단 메뉴-->
+          <nav class="menu">
+               <ul class="menu_fixed">
+                   <a href="#"><img src="images/mail_logo.png" width="21" height="21"></a><li style="margin-left: 5px"><a href="#">메일</a></li>
+                   <li><a href="#">카페</a></li>
+                   <li><a href="#">블로그</a></li>
+                   <li><a href="#">지식in</a></li>
+                   <li><a href="#">쇼핑</a></li>
+                   <li><a href="#">Pay</a></li>
+                   <li><a href="#">TV</a></li>
+               </ul>
+               <ul class="menu_favorite">
+                   <li><a href="#">사전</a></li>
+                   <li><a href="#">뉴스</a></li>
+                   <li><a href="#">증권</a></li>
+                   <li><a href="#">부동산</a></li>
+                   <li><a href="#">지도</a></li>
+                   <li><a href="#">영화</a></li>
+                   <li><a href="#">뮤직</a></li>
+                   <li><a href="#">책</a></li>
+                   <li><a href="#">웹툰</a></li>
+               </ul>
+               <form action="https://localhost/more.php#">
+                   <select class="more" name="more">
+                      <option value="dictionary" selected>더보기</option >
+                      <option value="grapolio">그라폴리오</option>
+                   </select>
+               </form>
+               <form action="https://localhost/filter_option.php#">
+                   <select class="search_filter" name="more">
+                      <option value="filter" selected>검색어 필터설정이 필요합니다</option >
+                      <option value="dontknow">아무거나</option>
+                   </select>
+               </form>
+           </nav>
+         <!-- 메인 콘텐츠 -->
+          <container class="body_container">
+            <section class="main_container">
+               <div class="left_content">
+                   <!--광고-->
+                   <div class="main_ad">
+                       <a href="#"><img src="images/main_ad.jpg" width="750" height="135"></a>
+                   </div>
+                   <!--뉴스-->
+                   <div class="newsstand">
+                      <div class="newsstand_header">
+                         <div class="issue_area">
+                              <a href="#">연합뉴스</a>
+                              <a href="#">태풍 '장미' 소멸했지만 양주 등 곳곳 폭우</a>
+                         </div>
+                         <div class="direct_area">
+                              <a href="#">네이버뉴스</a>
+                              <a href="#">연애</a>
+                              <a href="#">스포츠</a>
+                              <a href="#">경제</a>
+                         </div>
+                      </div>
+
+                      <div class="newsstand_title">
+                          <a href="#">뉴스스탠드</a>
+                          <a href="#">구독한 언론사</a>
+                          <a href="#">전체언론사</a>
+                      </div>
+                      <table>
+                          <tr>
+                              <td>mydaily</td>
+                              <td>한국일보</td>
+                              <td>YTN</td>
+                              <td>스포츠동아</td>
+                              <td>전자신문</td>
+                              <td>ZDNet Korea</td>
+                          </tr>
+                          <tr>
+                              <td>헤럴드경제</td>
+                              <td>Didital Today</td>
+                              <td>정신의학신문</td>
+                              <td>초이스경제</td>
+                              <td>뉴스컬쳐</td>
+                              <td>한경Business</td>
+                          </tr>
+                          <tr>
+                              <td>쿠키뉴스</td>
+                              <td>KBS</td>
+                              <td>SBS</td>
+                              <td>MBC</td>
+                              <td>조선일보</td>
+                              <td>동아일보</td>
+                          </tr><tr>
+                              <td>한겨례21</td>
+                              <td>한국경제</td>
+                              <td>경향신문</td>
+                              <td>중앙일보</td>
+                              <td>데일리안</td>
+                              <td>연합뉴스TV</td>
+                          </tr>
+                      </table>
+                   </div>
+
+               </div>
+
+               <aside class="right_aside">
+
+               </aside>
+            </section>
+          </container>
+
+
+
+
+       </container>
+
+
+     <!--     푸터     -->
+       <footer>
+
+       </footer>
+   </body>
+</html>

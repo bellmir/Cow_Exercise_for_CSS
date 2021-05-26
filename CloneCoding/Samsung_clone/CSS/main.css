@@ -1,0 +1,167 @@
+/*Reset*/
+body, h1, h2, h3, h4{
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Layout*/
+.body_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header nav, header ul{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    align-items: center;
+}
+
+/*Design*/
+body{
+    font-size: 12px;
+    font-family: "Malgun Gothic";
+}
+.body_wrapper{
+    width: 1230px;
+    margin: 0px auto;
+}
+header{
+    padding: 0px auto;
+}
+header li{
+    align-content: center;
+    padding: 27.5px 0px;
+}
+header a{
+    padding: 5px 10px;
+}
+.header_logo{
+    width: 104;
+    height: 18;
+    padding: 7px 9px;
+}
+.header_menu_left,
+.header_menu_right{
+    margin-left: 54px;
+    padding: 0px;
+}
+.header_menu_right img{
+    width: 9px;
+    height: 9px;
+    margin-left: 2.5px;
+}
+.header_consumer img{
+    width:24px;
+    height:24px;
+}
+.header_consumer{
+    padding: 0px;
+    margin-left: 14px;
+}
+.top_slide{
+    color: white;
+    width: 100%;
+    font-weight: 700;
+}
+.main_slide_banner{
+    background-color: #ac8077;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 0px;
+    height: 20px;
+    width: 100%;
+}
+.new{
+    border: solid 1px white;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 3px 8px;
+    width: 30px;
+    display: inline;
+}
+.main_slide_banner a{
+    color: inherit;
+    margin-left: 24px;
+}
+.top_slide span{
+    margin-left: 24px;
+    text-decoration: underline;
+}
+.main_slide{
+    position: relative;
+    background-image: url("../IMG/main-img.jpg");
+    background-repeat: no-repeat;
+    background-position: 581px 4px;
+    background-color: black;
+    padding: 0px 100px;
+    height: 521px;
+}
+.main_slide h1{
+    margin: 167px 0px 40px;
+    float: left;
+    font-weight: inherit;
+    font-size: 47px;
+    line-height: 1.1;
+    text-align: justify;
+}
+.main_slide a{
+    color: inherit;
+    text-decoration: underline;
+    position: absolute;
+    top: 320px;
+    left: 95px;
+    font-size: 12px;
+    font-weight: inherit;
+    padding: 5px;
+}
+a.pre-buy{
+    position: absolute;
+    top: 312px;
+    left: 200px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 12px 26px;
+    border-radius: 30px;
+}
+.main_slide_list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 84%;
+    padding: 0px;
+    position: absolute;
+    bottom: 37px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main_slide_list a{
+    padding-bottom: 7px;
+}
+.main_slide_list li{
+    margin-right: 14px;
+    width: 97px;
+    padding-bottom: 7px;
+    border-bottom: #4d4d4d solid 1.5px;
+}

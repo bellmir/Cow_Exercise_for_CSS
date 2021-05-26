@@ -1,0 +1,211 @@
+/*전체 스타일 지정*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+form:focus, input:focus{
+    outline: none;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0
+}
+
+
+/*===================헤더 부분=====================*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 161px;
+    padding: 0px 30px;
+    border-bottom: 1px solid rgb(220,220,220);
+}
+
+/*----헤더 검색----*/
+.logo_area{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 1160px;
+    height: 160px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#searching_tab{
+    display: flex;
+    border:2px solid #19ce60;
+    width: 586px;
+    height: 56px;
+    flex-direction: row;
+    justify-items: flex-end;
+    margin-left: 30px;
+    font: 12px;
+    flex-shrink: 0;
+}
+#searching_tab input{
+    border:none;
+}
+.search_box{
+    width: 528px;
+    height: 50px;
+    margin: 1px;
+    padding: 13px;
+    float: left;
+}
+.search_box:focus{
+    outline: none;
+}
+.search_icon{
+    background: url(images/search_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:35px;
+    height:35px;
+    border: 0;
+    margin: 9px 0px 0px 9px;
+}
+
+/*헤더 시작페이지 설정*/
+.set_start_page{
+    display: flex;
+    top: 5px;
+    right: -9px;
+    position: absolute;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.set_start_page li{
+    margin: 0px 10px;
+}
+.set_start_page a{
+    color: gray;
+}
+
+/*===================몸통 부분=====================*/
+.menu_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+}
+/*----상단 메뉴----*/
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+    padding: 11px 0px;
+    font-weight: bold;
+    width: 1130px;
+    height: 52px;
+    font-size: 15px;
+}
+.menu_fixed a{
+    color: #19ce60;
+}
+.menu_fixed, .menu_favorite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu_fixed li, .menu_favorite li ,.more, .search_filter{
+    margin: 0px 0px 0px 18px;
+    height: 20px;
+}
+
+.menu .more{
+    width :70px;
+    border: none;
+    font-size: 15px;
+}
+.menu .search_filter{
+    border: none;
+    font-size: 15px;
+}
+
+.body_container{
+    width: 100%;
+    border-top: 1px solid rgb(220,220,220);
+}
+/*----  메인 컨테이너  ----*/
+
+/*--왼쪽 컨텐츠--*/
+.main_container{
+    width: 1190px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px;
+    margin: 0px auto;
+    
+}
+.left_content{
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+.main_ad{
+    width: inherit;
+}
+
+/*뉴스탭*/
+.newsstand{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+.left_content>div{
+    margin-bottom: 12px;
+}
+.issue_area{
+    float: left;
+}
+.direct_area{
+    float: right;
+}
+.newsstand_header{
+    width: inherit;
+    height: 49px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 13px 15px 11px;
+    background-color: #f7f9fa;
+    border: 1px solid rgb(220,220,220);
+}
+.newsstand_header a{
+    margin: 0px 4px 0px 7px;
+}
+.newsstand_title{
+    width: inherit;
+    height: 56px;
+    padding: 22px 0px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.newsstand td{
+    padding: 23px 0px 22px;
+    border: 1px solid rgb(220,220,220);
+    margin: 0px;
+    text-align: center;
+    width: 124.61px;
+}
+
+
+
+/*--우측 메뉴--*/
+
+
+
+
