@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title src="">바다한가득</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../images/logo.png" rel="shortcut icon" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/MyPage.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <div class="main_logo">
+                <a href="./index.html">
+                    <img src="../images/logo.png" alt="logo">
+                    <span>바다한가득</span>
+                </a>
+            </div>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="./index.html">홈</a></li>
+                    <li><a href="./marketPrice.html">시세</a></li>
+                    <li><a href="./market.html">시장</a></li>
+                    <li><a href="./MyPage.html">마이페이지</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="content">
+            <div class="myPage">
+                <span>마이페이지</span>
+                <div class="userInfo">
+                    <button>
+                        <img src="../images/user_icon.png" alt="userProfile">
+                        <span class="currentUser">임종용 / 판매자</span>
+                    </button>
+                    
+                    <button class="logout_btn"> <!-- 나중에 다른 기능으로 바꿀것. 일단 과제땐 이걸로 -->
+                        <img src="../images/setting_icon.png" alt="개인정보수정">
+                        <span>개인정보 수정</span>
+                    </button>
+                </div>
+                <div class="userActivity">
+                    <ul class="userActivity_list">
+                    </ul>
+                    <div class="userActivity_show">
+                    </div>
+                </div>
+            </div>
+
+            <div class="etcActivity">
+                <ul>
+                    <li>
+                        <button class="leftMore_btn hover_grayText">공지사항<img src="../images/leftMore_icon.png" alt=""></button>
+                    </li>
+                    <li>
+                        <button class="leftMore_btn hover_grayText">환경설정<img src="../images/leftMore_icon.png" alt=""></button>
+                    </li>
+                    <li>
+                        <button class="leftMore_btn hover_grayText">약관 및 정책<img src="../images/leftMore_icon.png" alt=""></button>
+                    </li>
+                    <li>
+                        <button class="leftMore_btn hover_grayText">고객센터<img src="../images/leftMore_icon.png" alt=""></button>
+                    </li>
+                    <li>
+                        <button class="leftMore_btn hover_grayText">현재버전 1.0<img src="../images/leftMore_icon.png" alt=""></button>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <div>
+                해당 사이트는 소프트웨어공학 7조의 프로젝트를 위해 만들어졌습니다.
+            </div>
+        </footer>
+        <script src="../js/login.js"></script>
+        <script src="../js/MyPageFetch.js"></script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<span>마이페이지</span>
+<div class="userInfo">
+    <a href="#">
+        <img src="../images/user_icon.png" alt="userProfile">
+        <span>임종용 / 판매자</span>
+    </a>
+    
+    <a href="#">
+        <img src="../images/setting_icon.png" alt="개인정보수정">
+        <span>개인정보 수정</span>
+    </a>
+</div>
+<div class="userActivity">
+    <ul class="userActivity_list">
+        <li><button class="storeButton"><img src="../images/store_icon.png" alt="buyList"> 내 가게</button></li>
+        <li><button class="productButton"><img src="../images/product_icon.png" alt="favorite">상품관리</button></li>
+        <li><button class="reviewButton"><img src="../images/review_icon.png" alt="review">최근리뷰</button></li>
+        <li><button class="dealButton"><img src="../images/deal_icon.png" alt="price">거래알림</button></li>
+    </ul>
+    <div class="userActivity_show">                            ...
+        <button class="more_btn">더보기</button>
+    </div>
+</div>
