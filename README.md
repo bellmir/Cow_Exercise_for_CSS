@@ -6,3 +6,4 @@
 4. OpenTutorials는 생활코딩에서 JS 공부하면서 만든 실습
 5. Today's meal은 객체지향프로그래밍 과목 프로젝트로 Java이용해서 만듦
 6. fishmarket은 소공 프로젝트로 만든 수산물시장조회사이트
+7. TaxiStop은 데이터베이스프로젝트로 만든 택시승강장조회서비스
