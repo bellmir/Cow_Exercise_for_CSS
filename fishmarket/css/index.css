@@ -1,0 +1,77 @@
+/* design & layout */
+.gnb ul li:first-child{
+    background-color: var(--LightSkyblue);
+}
+
+.market{
+    width: 100%;
+}
+.market .marketSelect{
+    background-color: var(--LightGrey);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 26px;
+}
+.market .marketSelect div:first-child{
+    background-color: var(--PointColor);
+    width: 45px;
+    color: white;
+    margin-right: 15px;
+}
+.market .marketPrice_show{
+    border-bottom: solid var(--BorderColor) 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.market .marketPrice_show .marketPrice_search{
+    margin: 8px;
+    border: solid 1px var(--BorderColor);
+    border-right: none;
+    width: 300px;
+    overflow: hidden;
+}
+.market .marketPrice_show .marketPrice_search [type="text"]{
+    border: none;
+    width: 250px;
+}
+.market .marketPrice_show .marketPrice_search [type="text"]:focus{
+    outline: none;
+}
+.market .marketPrice_show .marketPrice_search [type="submit"]{
+    border: none;
+    background-color: var(--Blue);
+    float: right;
+    color: white;
+    width: 46px;
+}
+.market .marketPrice_show .marketPrice_search [type="submit"]:hover{
+    background-color: var(--Darkblue);
+}
+.market .marketPrice_list{
+    width: 100%;
+    padding: 10px 0px;
+}
+.market .marketPrice_list li{
+    line-height: 35px;
+}
+.market .marketPrice_list li:nth-child(2n-1){
+    border-right: 1px solid var(--BorderColor);
+}
+.marketShop{
+    margin: 10px;
+}
+.marketShop .marketShop_show{
+    margin-bottom: 10px;
+}
+.marketShop .marketShop_show ul li{
+    padding: 20px;
+    border: solid 1px var(--LightGrey);
+}
+.marketShop .marketShop_show .products li{
+    padding: 0;
+    border: none;
+}

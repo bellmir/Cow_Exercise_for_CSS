@@ -1,0 +1,51 @@
+.deal{
+    width: 100%;
+    text-align: left;
+    line-height: 40px;
+}
+.deal .deal_title{
+    background-color: var(--LightGrey);
+    padding-left: 60px;
+    color: var(--DarkGray);
+    font-weight: 600;
+}
+.deal .deal_list{
+    color: var(--DarkGray);
+}
+.deal .deal_list .list_manage{
+    border-bottom: 1px solid var(--BorderColor);
+}
+.deal .deal_list .list_manage button{
+    border: none;
+    margin-left: 60px;
+    padding: 0;
+    background-color: inherit;
+    line-height: 40px;
+    font-weight: 600;
+}
+.deal .deal_list .list_manage input{
+    border: none;
+    padding: 0;
+    background-color: inherit;
+    line-height: 40px;
+    font-weight: 600;
+    float: right;
+    margin-right: 25px;
+}
+.deal .deal_list ul li{
+    padding-left: 60px;
+    border-bottom: 1px solid var(--BorderColor);
+    position: relative;
+    padding-right: 70px;
+}
+.isNew{
+    color: orangered;
+    position: absolute;
+    right: 30px;
+}
+.deal_list input[type="checkbox"]{
+    display: unset;
+    position: absolute;
+    left:20px;
+    top: 10px;
+}

@@ -1,0 +1,63 @@
+.gnb ul li:nth-child(3){
+    background-color: var(--LightSkyblue);
+}
+
+.marketShop{
+    width: 100%;
+}
+.marketShop .marketSelect{
+    background-color: var(--LightGrey);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 26px;
+}
+.marketShop .marketSelect div:first-child{
+    background-color: var(--PointColor);
+    width: 45px;
+    color: white;
+    margin-right: 15px;
+}
+
+.marketShop .marketShop_show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.marketShop .marketShop_show .marketShop_search{
+    margin: 8px;
+    border: solid 1px var(--BorderColor);
+    border-right: none;
+    width: 300px;
+    overflow: hidden;
+}
+.marketShop .marketShop_show .marketShop_search [type="text"]{
+    border: none;
+    width: 250px;
+}
+.marketShop .marketShop_show .marketShop_search [type="text"]:focus{
+    outline: none;
+}
+.marketShop .marketShop_show .marketShop_search [type="submit"]{
+    border: none;
+    background-color: var(--Blue);
+    float: right;
+    color: white;
+    width: 46px;
+}
+.marketShop .marketShop_show .marketShop_search [type="submit"]:hover{
+    background-color: var(--Darkblue);
+}
+.marketShop .marketShop_list{
+    width: 100%;
+    padding: 10px 0;
+}
+.marketShop .marketShop_list>li{
+    padding: 10px;
+    border: 1px solid var(--LightGrey);
+}
+.marketShop .marketShop_list>li:hover{
+    background-color: var(--LightGrey);
+}
