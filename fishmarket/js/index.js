@@ -9,24 +9,26 @@ market.json을 받아와서 marketShop_show안에
 */
 
 fetch("../part/marketPrice.json")
-    .then(res=> res.json())
-    .then(data => {
-        data = data.marketName;
-        for(let i=0;i<data.length && i<10;i++){
-            const li = document.createElement('li');
-            li.innerHTML = `${data[i].productName} ${data[i].productPrice}`;
-            marketPrice_list.appendChild(li);
-        }
-    }).catch(error => {
-        marketPrice_list.innerHTML = "불러오기에 실패했습니다.";
-    });
+.then(res=> res.json())
+.then(data => {
+    data = data.marketName;
+    for(let i=0;i<data.length && i<10;i++){
+        const li = document.createElement('li');
+        li.innerHTML = `${data[i].productName} ${data[i].productPrice}`;
+        marketPrice_list.appendChild(li);
+    }
+}).catch(error => {
+    marketPrice_list.innerHTML = "불러오기에 실패했습니다.";
+});
+
 fetch("../part/marketShop.json").then(res => res.json())
 .then(data => {
     data = data.market;
     for(let i=0; i<data.length && i<9; i++){
         const li = document.createElement('li');
         const a = document.createElement('a');
-        a.setAttribute('href', '#');
+        a.setAttribute('href', './shop.html');
+        a.addEventListener("click", ()=> setClickedStoreCookie("clickedStore", data[i].storeName));
         const storeName = document.createElement('span');
         storeName.classList.add("storeName")
         const storeProducts = document.createElement('ul');
@@ -42,7 +44,12 @@ fetch("../part/marketShop.json").then(res => res.json())
         li.appendChild(a);
         marketShop_show.appendChild(li);
     }
-})
-.catch(error => {
+}).catch(error => {
     marketShop_show.innerHTML = "불러오기에 실패했습니다."
 });
+
+function setClickedStoreCookie(name, value) {
+    let date = new Date();
+    date.setTime(date.getTime() + 60*60*1000);
+    document.cookie = name + '=' + value + ';expires=' + date.toUTCString() + ';path=/';
+};

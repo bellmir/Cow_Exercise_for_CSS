@@ -8,9 +8,10 @@ window.onload = () =>{
         for(let i=0; i<data.length && i<20; i++){
             const li = document.createElement('li');
             const a = document.createElement('a');
-            a.setAttribute('href', '#');
+            a.setAttribute('href', './shop.html');
+            a.addEventListener("click", ()=> setClickedStoreCookie("clickedStore", data[i].storeName));
             const storeName = document.createElement('span');
-            storeName.classList.add("storeName")
+            storeName.classList.add("storeName");
             const storeProducts = document.createElement('ul');
             storeProducts.classList.add("products");
             storeName.innerHTML = data[i].storeName;
@@ -29,3 +30,9 @@ window.onload = () =>{
         marketShop_list.innerHTML = "불러오기에 실패했습니다."
     });
 }
+
+function setClickedStoreCookie(name, value) {
+    let date = new Date();
+    date.setTime(date.getTime() + 60*60*1000);
+    document.cookie = name + '=' + value + ';expires=' + date.toUTCString() + ';path=/';
+};

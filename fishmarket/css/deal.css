@@ -11,6 +11,9 @@
 }
 .deal .deal_list{
     color: var(--DarkGray);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 .deal .deal_list .list_manage{
     border-bottom: 1px solid var(--BorderColor);
@@ -36,12 +39,6 @@
     padding-left: 60px;
     border-bottom: 1px solid var(--BorderColor);
     position: relative;
-    padding-right: 70px;
-}
-.isNew{
-    color: orangered;
-    position: absolute;
-    right: 30px;
 }
 .deal_list input[type="checkbox"]{
     display: unset;

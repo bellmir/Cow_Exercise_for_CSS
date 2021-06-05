@@ -1,292 +1,374 @@
 {
     "market":[
         {
-            "storeName": "OO수산",
+            "storeName": "광명수산",
+            "storeInfo": "항상 밝은 서비스를 제공하는 광명수산입니다.",
             "products":[
                 {
                     "productName": "광어",
+                    "productInfo": "산지 직송, 국내산",
                     "productCost": 19400
                 },
                 {
                     "productName": "연어",
+                    "productInfo": "냉동, 러시아산",
                     "productCost": 20000
                 },
                 {
                     "productName": "대게",
+                    "productInfo": "러시아산",
                     "productCost": 50400
                 },
                 {
+                    "productName": "꽃게",
+                    "productInfo": "러시아산",
+                    "productCost": 13000
+                },
+                {
                     "productName": "방어",
+                    "productInfo": "국내산",
                     "productCost": 20000
                 },
                 {
                     "productName": "고등어",
+                    "productInfo": "러시아산, 냉동",
                     "productCost": 5000
                 }
             ]
         },
         {
-            "storeName": "OO수산",
+            "storeName": "햇님수산",
+            "storeInfo": "최고의 서비스, 햇님수산입니다.",
             "products":[
                 {
                     "productName": "광어",
-                    "productCost": 19400
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 20000
                 },
                 {
                     "productName": "연어",
-                    "productCost": 20000
+                    "productInfo": "냉동, 러시아산",
+                    "productCost": 23000
                 },
                 {
                     "productName": "대게",
-                    "productCost": 50400
+                    "productInfo": "러시아산",
+                    "productCost": 60000
+                },
+                {
+                    "productName": "꽃게",
+                    "productInfo": "러시아산",
+                    "productCost": 12000
                 },
                 {
                     "productName": "방어",
-                    "productCost": 20000
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 15000
                 },
                 {
                     "productName": "고등어",
+                    "productInfo": "국내산",
+                    "productCost": 6000
+                }
+            ]
+        },{
+            "storeName": "한가득수산",
+            "storeInfo": "가성비 짱 한가득수산입니다.",
+            "products":[
+                {
+                    "productName": "우럭",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 15000
+                },
+                {
+                    "productName": "광어",
+                    "productInfo": "국내산, 양식",
+                    "productCost": 17800
+                },
+                {
+                    "productName": "대게",
+                    "productInfo": "러시아산",
+                    "productCost": 55000
+                },
+                {
+                    "productName": "방어",
+                    "productInfo": "국내산",
+                    "productCost": 20000
+                },
+                {
+                    "productName": "꽁치",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 2000
+                }
+            ]
+        },{
+            "storeName": "바가지수산",
+            "storeInfo": "바가지수산입니다.",
+            "products":[
+                {
+                    "productName": "광어",
+                    "productInfo": "국내산, 양식",
+                    "productCost": 22000
+                },
+                {
+                    "productName": "연어",
+                    "productInfo": "냉동, 러시아산",
+                    "productCost": 21000
+                },
+                {
+                    "productName": "대게",
+                    "productInfo": "러시아산",
+                    "productCost": 50000
+                },
+                {
+                    "productName": "방어",
+                    "productInfo": "국내산, 양식",
+                    "productCost": 19000
+                },
+                {
+                    "productName": "고등어",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 6000
+                }
+            ]
+        },{
+            "storeName": "돌고래수산",
+            "storeInfo": "싱싱한 물건만 취급하는 돌고래수산입니다.",
+            "products":[
+                {
+                    "productName": "광어",
+                    "productInfo": "국내산, 양식",
+                    "productCost": 22000
+                },
+                {
+                    "productName": "우럭",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 16000
+                },
+                {
+                    "productName": "대게",
+                    "productInfo": "러시아산",
+                    "productCost": 48000
+                },
+                {
+                    "productName": "방어",
+                    "productInfo": "국내산, 양식",
+                    "productCost": 22000
+                },
+                {
+                    "productName": "고등어",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 7000
+                }
+            ]
+        },{
+            "storeName": "햇빛수산",
+            "storeInfo": "밝은 미소로 맞이하겠습니다.",
+            "products":[
+                {
+                    "productName": "광어",
+                    "productInfo": "국내산, 양식",
+                    "productCost": 19400
+                },
+                {
+                    "productName": "우럭",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 21000
+                },
+                {
+                    "productName": "대게",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 55000
+                },
+                {
+                    "productName": "방어",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 23000
+                },
+                {
+                    "productName": "고등어",
+                    "productInfo": "냉동, 러시아산",
                     "productCost": 5000
                 }
             ]
         },{
-            "storeName": "OO수산",
+            "storeName": "우리수산",
+            "storeInfo": "고객만족 1위. 우리수산으로 오세요",
             "products":[
                 {
                     "productName": "광어",
-                    "productCost": 19400
+                    "productInfo": "국내산, 양식",
+                    "productCost": 21000
                 },
                 {
                     "productName": "연어",
-                    "productCost": 20000
+                    "productInfo": "러시아산",
+                    "productCost": 22000
                 },
                 {
-                    "productName": "대게",
-                    "productCost": 50400
+                    "productName": "우럭",
+                    "productInfo": "국내산, 양식",
+                    "productCost": 55000
                 },
                 {
                     "productName": "방어",
-                    "productCost": 20000
+                    "productInfo": "냉동, 러시아산",
+                    "productCost": 21000
                 },
                 {
                     "productName": "고등어",
-                    "productCost": 5000
+                    "productInfo": "냉동, 러시아산",
+                    "productCost": 3000
                 }
             ]
         },{
             "storeName": "OO수산",
+            "storeInfo": "반갑습니다. OO수산입니다",
             "products":[
                 {
                     "productName": "광어",
+                    "productInfo": "국내산, 양식",
                     "productCost": 19400
                 },
                 {
                     "productName": "연어",
+                    "productInfo": "러시아산",
                     "productCost": 20000
                 },
                 {
                     "productName": "대게",
+                    "productInfo": "영덕대게, 국내산",
                     "productCost": 50400
                 },
                 {
                     "productName": "방어",
+                    "productInfo": "산지 직송, 국내산",
                     "productCost": 20000
                 },
                 {
-                    "productName": "고등어",
-                    "productCost": 5000
+                    "productName": "꽁치",
+                    "productInfo": "냉동, 러시아산",
+                    "productCost": 1500
                 }
             ]
         },{
             "storeName": "OO수산",
+            "storeInfo": "반갑습니다. OO수산입니다",
             "products":[
                 {
-                    "productName": "광어",
-                    "productCost": 19400
+                    "productName": "우럭",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 19000
                 },
                 {
-                    "productName": "연어",
-                    "productCost": 20000
+                    "productName": "광어",
+                    "productInfo": "국내산, 양식",
+                    "productCost": 20500
                 },
                 {
                     "productName": "대게",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 51500
+                },
+                {
+                    "productName": "꽁치",
+                    "productInfo": "냉동, 러시아산",
+                    "productCost": 2200
+                },
+                {
+                    "productName": "고등어",
+                    "productInfo": "러시아산",
+                    "productCost": 5500
+                }
+            ]
+        },{
+            "storeName": "해물수산",
+            "storeInfo": "해산물을 살 땐, 해물수산",
+            "products":[
+                {
+                    "productName": "광어",
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 19900
+                },
+                {
+                    "productName": "연어",
+                    "productInfo": "러시아산",
+                    "productCost": 25000
+                },
+                {
+                    "productName": "대게",
+                    "productInfo": "영덕대게, 국내산",
                     "productCost": 50400
                 },
                 {
                     "productName": "방어",
-                    "productCost": 20000
+                    "productInfo": "국내산, 양식",
+                    "productCost": 22000
                 },
                 {
                     "productName": "고등어",
+                    "productInfo": "산지 직송, 국내산",
                     "productCost": 5000
                 }
             ]
         },{
-            "storeName": "OO수산",
+            "storeName": "대게수산",
+            "storeInfo": "대게 전문 대게수산",
             "products":[
                 {
                     "productName": "광어",
-                    "productCost": 19400
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 19000
                 },
                 {
                     "productName": "연어",
-                    "productCost": 20000
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 26000
                 },
                 {
                     "productName": "대게",
-                    "productCost": 50400
+                    "productInfo": "영덕대게, 국내산",
+                    "productCost": 60400
                 },
                 {
                     "productName": "방어",
-                    "productCost": 20000
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 22000
                 },
                 {
                     "productName": "고등어",
-                    "productCost": 5000
+                    "productInfo": "냉동, 러시아산",
+                    "productCost": 5500
                 }
             ]
         },{
-            "storeName": "OO수산",
+            "storeName": "등대수산",
+            "storeInfo": "등대수산은 고객님들과의 신뢰가 최우선입니다.",
             "products":[
                 {
                     "productName": "광어",
-                    "productCost": 19400
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 12000
                 },
                 {
                     "productName": "연어",
-                    "productCost": 20000
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 18000
                 },
                 {
                     "productName": "대게",
-                    "productCost": 50400
+                    "productInfo": "영덕대게, 국내산",
+                    "productCost": 45000
                 },
                 {
                     "productName": "방어",
-                    "productCost": 20000
+                    "productInfo": "산지 직송, 국내산",
+                    "productCost": 19000
                 },
                 {
                     "productName": "고등어",
-                    "productCost": 5000
-                }
-            ]
-        },{
-            "storeName": "OO수산",
-            "products":[
-                {
-                    "productName": "광어",
-                    "productCost": 19400
-                },
-                {
-                    "productName": "연어",
-                    "productCost": 20000
-                },
-                {
-                    "productName": "대게",
-                    "productCost": 50400
-                },
-                {
-                    "productName": "방어",
-                    "productCost": 20000
-                },
-                {
-                    "productName": "고등어",
-                    "productCost": 5000
-                }
-            ]
-        },{
-            "storeName": "OO수산",
-            "products":[
-                {
-                    "productName": "광어",
-                    "productCost": 19400
-                },
-                {
-                    "productName": "연어",
-                    "productCost": 20000
-                },
-                {
-                    "productName": "대게",
-                    "productCost": 50400
-                },
-                {
-                    "productName": "방어",
-                    "productCost": 20000
-                },
-                {
-                    "productName": "고등어",
-                    "productCost": 5000
-                }
-            ]
-        },{
-            "storeName": "OO수산",
-            "products":[
-                {
-                    "productName": "광어",
-                    "productCost": 19400
-                },
-                {
-                    "productName": "연어",
-                    "productCost": 20000
-                },
-                {
-                    "productName": "대게",
-                    "productCost": 50400
-                },
-                {
-                    "productName": "방어",
-                    "productCost": 20000
-                },
-                {
-                    "productName": "고등어",
-                    "productCost": 5000
-                }
-            ]
-        },{
-            "storeName": "OO수산",
-            "products":[
-                {
-                    "productName": "광어",
-                    "productCost": 19400
-                },
-                {
-                    "productName": "연어",
-                    "productCost": 20000
-                },
-                {
-                    "productName": "대게",
-                    "productCost": 50400
-                },
-                {
-                    "productName": "방어",
-                    "productCost": 20000
-                },
-                {
-                    "productName": "고등어",
-                    "productCost": 5000
-                }
-            ]
-        },{
-            "storeName": "OO수산",
-            "products":[
-                {
-                    "productName": "광어",
-                    "productCost": 19400
-                },
-                {
-                    "productName": "연어",
-                    "productCost": 20000
-                },
-                {
-                    "productName": "대게",
-                    "productCost": 50400
-                },
-                {
-                    "productName": "방어",
-                    "productCost": 20000
-                },
-                {
-                    "productName": "고등어",
-                    "productCost": 5000
+                    "productInfo": "냉동, 러시아산",
+                    "productCost": 5500
                 }
             ]
         }
