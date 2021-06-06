@@ -34,7 +34,8 @@
                     "productInfo": "러시아산, 냉동",
                     "productCost": 5000
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market1.jpg"
         },
         {
             "storeName": "햇님수산",
@@ -70,7 +71,8 @@
                     "productInfo": "국내산",
                     "productCost": 6000
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market2.jpg"
         },{
             "storeName": "한가득수산",
             "storeInfo": "가성비 짱 한가득수산입니다.",
@@ -100,7 +102,8 @@
                     "productInfo": "산지 직송, 국내산",
                     "productCost": 2000
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market3.jpg"
         },{
             "storeName": "바가지수산",
             "storeInfo": "바가지수산입니다.",
@@ -130,7 +133,8 @@
                     "productInfo": "산지 직송, 국내산",
                     "productCost": 6000
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market4.jpg"
         },{
             "storeName": "돌고래수산",
             "storeInfo": "싱싱한 물건만 취급하는 돌고래수산입니다.",
@@ -160,7 +164,8 @@
                     "productInfo": "산지 직송, 국내산",
                     "productCost": 7000
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market5.jpg"
         },{
             "storeName": "햇빛수산",
             "storeInfo": "밝은 미소로 맞이하겠습니다.",
@@ -190,7 +195,8 @@
                     "productInfo": "냉동, 러시아산",
                     "productCost": 5000
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market6.jpg"
         },{
             "storeName": "우리수산",
             "storeInfo": "고객만족 1위. 우리수산으로 오세요",
@@ -220,7 +226,8 @@
                     "productInfo": "냉동, 러시아산",
                     "productCost": 3000
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market7.jpg"
         },{
             "storeName": "OO수산",
             "storeInfo": "반갑습니다. OO수산입니다",
@@ -250,7 +257,8 @@
                     "productInfo": "냉동, 러시아산",
                     "productCost": 1500
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market8.jpg"
         },{
             "storeName": "OO수산",
             "storeInfo": "반갑습니다. OO수산입니다",
@@ -280,7 +288,8 @@
                     "productInfo": "러시아산",
                     "productCost": 5500
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market9.jpg"
         },{
             "storeName": "해물수산",
             "storeInfo": "해산물을 살 땐, 해물수산",
@@ -310,7 +319,8 @@
                     "productInfo": "산지 직송, 국내산",
                     "productCost": 5000
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market10.jpg"
         },{
             "storeName": "대게수산",
             "storeInfo": "대게 전문 대게수산",
@@ -340,7 +350,8 @@
                     "productInfo": "냉동, 러시아산",
                     "productCost": 5500
                 }
-            ]
+            ],
+            "image": "../part/imagesForJson/market11.jpg"
         },{
             "storeName": "등대수산",
             "storeInfo": "등대수산은 고객님들과의 신뢰가 최우선입니다.",
@@ -370,7 +381,8 @@
                     "productInfo": "냉동, 러시아산",
                     "productCost": 5500
                 }
-            ]
+            ],
+            "image": "./imagesForJson/market12.jpg"
         }
     ]
 }

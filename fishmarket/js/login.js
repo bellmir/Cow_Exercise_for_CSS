@@ -5,8 +5,6 @@ let Role;
     let isLogged = getCookie("userID");
     if(isLogged==null){
         signIn();
-    } else{
-        alert(`로그인 되어 있습니다.\n ID: ${isLogged}`);
     }
 })();
 
@@ -36,5 +34,6 @@ function getCookie(name) {
 }
 
 function deleteCookie(name) {
-    document.cookie = name + '=; expires=Thu, 01 Jan 1999 00:00:10 GMT;';
+    document.cookie = `${name}= null; expires= Thu, 01 Jan 1999 00:00:10 GMT; path=/ `;
 }
+//document.cookie = "cookiename=cookievalue; expires= Thu, 21 Aug 2014 20:00:00 UTC"

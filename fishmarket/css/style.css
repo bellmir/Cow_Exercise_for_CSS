@@ -7,7 +7,7 @@ body{
     padding: 0;
     font-weight: normal;
 }
-a, ul, ol, img, p, span{
+a, ul, ol, img, p, span, h1,h2,h3,h4,h5,h6{
     list-style: none; 
     text-decoration: none;
     color: inherit;
@@ -25,11 +25,21 @@ a, ul, ol, img, p, span{
     --Darkblue: #007fd4;
     --Blue: #0099ff;
     --PointColor: #ff4d4d;
-    --BorderColor: #c7c7c7;
+    --BorderColor: rgb(210, 210, 210);
     --LightGrey: rgb(244, 244, 244);
     --LightSkyblue: #c6e8ff;
     --DarkGray: #3b3b3b;
 }
+/* animation */
+@keyframes colorChange{
+    0%{
+      background-color: inherit;
+    }
+    100%{
+        background-color: var(--LightGrey);
+    }
+}
+
 
 /*layout & design*/
 body{
@@ -85,9 +95,11 @@ body{
     flex-direction: column;
     align-items: center;
     width: 800px;
-    border: solid var(--BorderColor) 1px;
+    border: 1px solid var(--BorderColor);
     margin: 5px 0px;
+    border-radius: 5px;
 }
+
 
 .footer{
     background-color: var(--SecondaryColor);
@@ -138,3 +150,4 @@ body{
 button:hover, select:hover, input[type="submit"]:hover{
     cursor: pointer;
 }
+

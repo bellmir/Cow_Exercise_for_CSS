@@ -12,6 +12,8 @@
     padding: 5px;
     font-size: 15px;
     line-height: 26px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .marketShop .marketSelect div:first-child{
     background-color: var(--PointColor);
@@ -59,5 +61,5 @@
     border: 1px solid var(--LightGrey);
 }
 .marketShop .marketShop_list>li:hover{
-    background-color: var(--LightGrey);
+    animation: colorChange 0.5s linear forwards;
 }

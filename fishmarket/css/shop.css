@@ -13,11 +13,20 @@
 .shop .shop_info .shop_intro{
     border-bottom: 1px solid var(--BorderColor);
 }
-
-.shop .shop_info ul{
-    width: 100%;
+.shop .shop_info .shop_img{
+    line-height: 15px;
+    max-height: 420px;
+    overflow: hidden;
 }
-.shop .shop_info ul li span{
+.shop .shop_info .shop_product{
+    background-color: var(--LightGrey);
+}
+.shop .shop_info .shop_img img{
+    width: 600px;
+}
+.shop .shop_info .product_list{
+}
+.shop .shop_info .product_list li span{
     display: inline-block;
     width: 45%;
 }

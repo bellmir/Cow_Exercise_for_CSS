@@ -1,6 +1,7 @@
 const userInfo = document.querySelector(".userInfo");
 const show = document.querySelector(".userActivity_show");
 const currentUser = document.querySelector(".userInfo .currentUser");
+const privacyBtn = document.querySelector(".privacyChange_btn");
 const logoutBtn = document.querySelector(".logout_btn");
 const userActivity_list = document.querySelector(".userActivity_list");
 
@@ -16,7 +17,8 @@ window.onload = ()=>{
         fetchCustomerPage();
     }
 }
-logoutBtn.onclick = ()=>{
+
+privacyBtn.onclick = ()=>{
     deleteCookie("userID");
     deleteCookie("userRole");
     signIn();   //login.js의 function.
@@ -28,6 +30,12 @@ logoutBtn.onclick = ()=>{
         fetchCustomerPage();
     }
     alert('정보가 수정되었습니다.');
+};
+logoutBtn.onclick = ()=>{
+    deleteCookie("userID");
+    deleteCookie("userRole");
+    location.replace("./index.html");
+    alert('로그아웃 되었습니다.');
 };
 
 function fetchSellerPage(){

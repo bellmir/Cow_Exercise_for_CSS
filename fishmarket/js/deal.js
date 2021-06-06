@@ -9,11 +9,11 @@ function fetchList() {
 
         for(let i=0;i<data.length && i<10;i++){
             let item = data[i];
-            let tag = '<li> <input type="checkbox" name="#" value="#"><a href="#" class="hover_blackText">';
+            let tag = `<li> <input type="checkbox" name="#" value="#" id=${i}><a href="#" class="hover_blackText"><label for=${i}>`;
             for(j in item){
-                tag=tag+`${item[j]} `;
+                tag+=`${item[j]}`;
             }
-            tag = tag + '</a></li>';
+            tag = tag + '</label></a></li>';
             tags = tags + tag;
         }
         list.innerHTML = tags;
