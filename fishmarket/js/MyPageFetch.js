@@ -68,7 +68,7 @@ function unImplemented(){
 }
 
 function handle_dealCliked() {
-    fetch(`../part/deal.json`)
+    fetch(`https://raw.githubusercontent.com/bellmir/Practice/master/fishmarket/part/deal.json`)
     .then((response) => response.json())
     .then((data) => {
         data = data.log;
@@ -90,7 +90,7 @@ function handle_dealCliked() {
 }
 
 function handle_reviewCliked() {
-    fetch(`../part/review.json`)
+    fetch(`https://raw.githubusercontent.com/bellmir/Practice/master/fishmarket/part/review.json`)
     .then((response) => response.json())
     .then((data) => {
         data = data.log;
@@ -112,7 +112,7 @@ function handle_reviewCliked() {
 }
 
 function handle_storeCliked() {
-    fetch(`../part/#.json`)
+    fetch(`https://raw.githubusercontent.com/bellmir/Practice/master/fishmarket/part/#.json`)
     .then((response) => response.json())
     .then((data) => {
         data = data.log;
@@ -121,7 +121,7 @@ function handle_storeCliked() {
 }
 
 function handle_productCliked() {
-    fetch(`../part/#.json`)
+    fetch(`https://raw.githubusercontent.com/bellmir/Practice/master/fishmarket/part/#.json`)
     .then((response) => response.json())
     .then((data) => {
         data = data.log;

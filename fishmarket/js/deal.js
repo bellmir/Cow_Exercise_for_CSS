@@ -1,7 +1,7 @@
 const list = document.querySelector(".list_show")
 
 function fetchList() {
-    fetch('../part/deal.json')
+    fetch('https://raw.githubusercontent.com/bellmir/Practice/master/fishmarket/part/deal.json')
     .then((response) => response.json())
     .then((data) => {
         data = data.log;

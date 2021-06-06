@@ -1,7 +1,7 @@
 const  marketShop_list = document.querySelector(".marketShop_list");
 
 window.onload = () =>{
-    fetch("../part/marketShop.json")
+    fetch("https://raw.githubusercontent.com/bellmir/Practice/master/fishmarket/part/marketShop.json")
     .then(res => res.json())
     .then(data => {
         data = data.market;

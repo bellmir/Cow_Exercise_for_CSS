@@ -8,7 +8,7 @@ market.json을 받아와서 marketShop_show안에
 형태로 넣으려고 함. 가게는 9개, 가게별 품목은 3개씩만 display.
 */
 
-fetch("../part/marketPrice.json")
+fetch("https://raw.githubusercontent.com/bellmir/Practice/master/fishmarket/part/marketPrice.json")
 .then(res=> res.json())
 .then(data => {
     data = data.marketName;
@@ -21,7 +21,7 @@ fetch("../part/marketPrice.json")
     marketPrice_list.innerHTML = "불러오기에 실패했습니다.";
 });
 
-fetch("../part/marketShop.json").then(res => res.json())
+fetch("https://raw.githubusercontent.com/bellmir/Practice/master/fishmarket/part/marketShop.json").then(res => res.json())
 .then(data => {
     data = data.market;
     for(let i=0; i<data.length && i<9; i++){
