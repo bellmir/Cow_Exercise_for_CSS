@@ -15,7 +15,7 @@ function signIn(){
     if(ID!=null && ID!="" && Role!=null && Role!="" && (Role=="seller" || Role=="customer")){
         setCookie("userID", ID, 1);
         setCookie("userRole", Role, 1);
-        alert('정보가 수정되었습니다.');
+        alert('확인되었습니다.');
     }
     else{
         alert('입력이 제대로 되지 않았습니다.\n홈화면으로 이동합니다.');
