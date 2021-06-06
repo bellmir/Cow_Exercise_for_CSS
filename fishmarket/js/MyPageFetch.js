@@ -19,17 +19,17 @@ window.onload = ()=>{
 }
 
 privacyBtn.onclick = ()=>{
-    deleteCookie("userID");
-    deleteCookie("userRole");
     signIn();   //login.js의 function.
     userRole = getCookie("userRole");
     userID = getCookie("userID");
     if(userRole=="seller"){
         fetchSellerPage();
-    } else{
+    } else if(userRole=="customer"){
         fetchCustomerPage();
+    }else{
+        deleteCookie("userID");
+        deleteCookie("userRole");
     }
-    alert('정보가 수정되었습니다.');
 };
 logoutBtn.onclick = ()=>{
     deleteCookie("userID");

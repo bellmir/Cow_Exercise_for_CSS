@@ -3,23 +3,24 @@ let Role;
 
 (function() {
     let isLogged = getCookie("userID");
-    if(isLogged==null){
+    if(isLogged===null){
         signIn();
     }
 })();
 
 function signIn(){
-    ID = prompt("아이디 입력\n(defualt:bellmir)");
-    Role = prompt("역할 입력\nseller or customer (defualt:seller)")
+    ID = prompt("아이디 입력\n");
+    Role = prompt("역할 입력\nseller or customer")
     
-    if(ID==null){
-        ID="bellmir";
+    if(ID!=null && ID!="" && Role!=null && Role!="" && (Role=="seller" || Role=="customer")){
+        setCookie("userID", ID, 1);
+        setCookie("userRole", Role, 1);
+        alert('정보가 수정되었습니다.');
     }
-    if(Role!="seller" && Role!="customer"){
-        Role="seller";
+    else{
+        alert('입력이 제대로 되지 않았습니다.\n홈화면으로 이동합니다.');
+        location.replace("./index.html");
     }
-    setCookie("userID", ID, 1);
-    setCookie("userRole", Role, 1);
 }
 
 function setCookie(name, value, exp) {
