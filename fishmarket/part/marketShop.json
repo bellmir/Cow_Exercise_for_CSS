@@ -382,7 +382,7 @@
                     "productCost": 5500
                 }
             ],
-            "image": "./part/imagesForJson/market12.jpg"
+            "image": "../part/imagesForJson/market12.jpg"
         }
     ]
 }
